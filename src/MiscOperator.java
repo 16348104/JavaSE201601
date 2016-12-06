@@ -14,5 +14,9 @@ public class MiscOperator {
 
         int z = (1 + 2) * 3 / (4 % 6);
         System.out.println(z); // 2
+
+        int n = 123456789;
+        double d = n;
+        System.out.println(d);
     }
 }
