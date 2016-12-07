@@ -12,6 +12,21 @@ public class E4 {
         System.out.println("input N: ");
         int n = scanner.nextInt();
 
-        // 120 = 2*2*2*3*5
+        System.out.print(n + " = ");
+        boolean b = true;
+        while (n != 1) {
+            for (int i = 2; i < n + 1; i++) {
+                if (n % i == 0) {
+                    if (b) {
+                        System.out.print(i);
+                        b = false;
+                    } else {
+                        System.out.print(" * " + i);
+                    }
+                    n /= i;
+                    break;
+                }
+            }
+        }
     }
 }
