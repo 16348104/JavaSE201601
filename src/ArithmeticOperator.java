@@ -29,6 +29,10 @@ public class ArithmeticOperator { // F2 Alt + Enter
         z = x % y;
         System.out.println(z);
 
-        System.out.println(100 % 3);
+        System.out.println(100 % 3); // int double
+
+        System.out.println(1 / 0d);
+
+        System.out.println(1 + 1 + "1" + 1 + 1);
     }
 }

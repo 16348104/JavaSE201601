@@ -28,5 +28,17 @@ public class IfTest {
 
         String level = "A";
         // out [90,100]
+
+        if(grade > 100) {
+            System.out.println("> 100...");
+        }
+
+        if (grade > 100) {
+            // Ctrl + Alt + t
+        }
+
+        if (grade > 100) {
+
+        }
     }
 }
