@@ -12,7 +12,7 @@ import java.util.Scanner;
             F(n) = 1 (n=1, n=2)
             F(n) = F(n-1) + F(n-2) (n>2)
      */
-public class E51 {
+public class E51 { // Ctrl + Alt + L
 
 //    void method() {
 //        method();
@@ -26,7 +26,7 @@ public class E51 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // asdf
         System.out.println("input n: ");
         int n = scanner.nextInt();
 

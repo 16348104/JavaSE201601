@@ -3,13 +3,17 @@
  * 2016/12/8
  */
 // class = field + method
-class Human {
+class Human { // Alt + 7
     String name;
     int age;
     char gender;
     double height;
     double weight;
     boolean isMarried;
+
+    Human() {
+
+    }
 
 //    Human() { // 构造方法 构造器 constructor
 //        // 1. 没有返回类型
