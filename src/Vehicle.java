@@ -10,6 +10,7 @@ public class Vehicle { // 交通工具
     double weight;
 
     public Vehicle() {
+        System.out.println("vehicle constructor...");
     }
 
     public Vehicle(double speed, String color, double price, double weight) {
