@@ -1,14 +1,18 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 /**
  * Created by Administrator
  * 2016/12/9
  */
 public class Inheritance {
     public static void main(String[] args) {
-        D d = new D();
+        D d = new D(); // Alt + Ctrl [+ Shift] + U  UML
         d.d();
         d.c();
         d.b();
         d.a();
+        System.out.println(d instanceof A);
     }
 }
 
